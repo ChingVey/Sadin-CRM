@@ -11,7 +11,7 @@ body{
     align-content: center;
 }
 .container{
-	width: 500px;
+	width: 800px;
 	padding: 30px;
 	border: 1px solid #eeeeee;
 	border-radius: 10px;
@@ -19,6 +19,7 @@ body{
 }
 h4{
 	margin-bottom: 10px;
+    font-weight: bold;
 	font-size: 24px;
 	color: white;
 }
@@ -45,31 +46,7 @@ textarea{
     margin-top: 25px;
 }
 
-#gender{
-    display: grid;
-    margin-top: 15px;
-    color: white;
-}
 
-#male{
-    display: flex;
-    justify-content: center;
-    align-content: center;
-}
-#malein{
-    margin-right: 200px;
-}
-
-#female{
-    display: flex;
-    justify-content: center;
-    align-content: center;
-
-}
-
-#femalein{
-    margin-right: 221px;
-}
 
 #select{
     padding: 2px;
@@ -101,13 +78,13 @@ textarea{
 }
 
 #img{
-    margin-left: 120px;
-    width: 250px;
+    margin-left: 225px;
+    width: 350px;
 }
 
 #img2{
     border-radius: 50%;
-    width: 150px;
+    width: 200px;
 }
 
     span{
@@ -117,7 +94,7 @@ textarea{
 #wel{
     font-size: smaller;
     font-weight: 500;
-    width: 500px;
+    width: 820px;
     padding: 10px;
     margin: 0;
 }
@@ -125,24 +102,24 @@ textarea{
 #q{
     font-size: smaller;
     font: 100;
-    width: 350px;
+    width: 650px;
     padding: 10px;
-    margin: 0;
+    padding-left: 30px;
     font-family: 'Times New Roman', Times, serif;
 }
 
 #din{
     font-weight: bold;
-    width: 350px;
+    width: 650px;
     padding: 10px;
-    margin: 0;
+    padding-left: 30px;
     font-size: smaller;
 }
 
 #din2{
     font-size: 12px;
     padding: 10px;
-    margin: 0;
+    padding-left: 30px;
 }
 
 #datetime{

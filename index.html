@@ -24,22 +24,18 @@
 
 			<h4>Contact Us</h4>
 
-			<input type="text" name="Name" placeholder="Name" id="name">
+			<input type="text" name="Name" placeholder="Your Name" id="name">
 
-        <div id="gender">
-            <div id="female">
-                <label>Female</label>
-                <input id="femalein" type="radio" name="Gender" value="female">
-                </div>
-            <div id="male">
-            <label>Male</label>
-            <input id="malein" type="radio" name="Gender" value="male">
-            </div>
-        </div>
+            <label id="choose">Gender :</label>
+            <select name="Gender" id="select">
+              <option value="none">Please select your gender</option>
+              <option value="Male">Male</option>
+              <option value="Female">Female</option>
+             </select>
 
-			<input type="text" name="Number" placeholder="Number" id="number">
+			<input type="text" name="Number" placeholder="Phone Number" id="number">
 
-			<input type="email" name="Email" placeholder="Email">
+			<input type="email" name="Email" placeholder="Email Address">
 
             <label id="choose">What is your concern?</label>
             <select name="Option" id="select">
@@ -55,7 +51,7 @@
 			<textarea name="Description" rows="7" placeholder="Description"></textarea>
 
             <div id="datetime">
-            <label id="textdate">Reserve Date</label>
+            <label id="textdate">Reserve Date :</label>
             <input id="date" type="date" id="start" name="Date" value="2024-01-01" min="2024-01-01" max="2024-12-31" /> 
             </div>
 
