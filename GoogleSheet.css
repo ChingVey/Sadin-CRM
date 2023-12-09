@@ -46,11 +46,29 @@ textarea{
 }
 
 #gender{
+    display: grid;
+    margin-top: 15px;
+    color: white;
+}
+
+#male{
     display: flex;
     justify-content: center;
     align-content: center;
-    margin-top: 15px;
-    color: white;
+}
+#malein{
+    margin-right: 200px;
+}
+
+#female{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+
+}
+
+#femalein{
+    margin-right: 221px;
 }
 
 #select{
