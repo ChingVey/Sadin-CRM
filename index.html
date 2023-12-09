@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" href="GoogleSheet.css">
+    <link rel="icon" href="img/IMG_0335.JPG">
+</head>
+<body>
+    <div id="sante">
+    <img id="img" src="img/IMG_0335.JPG">
+    <p id="wel"><Span>W</Span>elcome to CRM system of Siem Reap Provincial Referral Hospital. Now we provide a platform of CRM which patient can fill the required field in order to send us their personal information and concern due to their health problem.<p>
+    </div>
+
+    <div id="sante2">
+        <img id="img2" src="img/IMG_0334.jpg">
+        <div id="text">
+        <p id="din">Dr.Mo Satdin</p>
+        <p id="q">Step Outside Yourself to discover What’s Important to Someone else..!</p>
+        <p id="din2">General Surgeon -</p>
+    </div>
+        </div>
+
+	<div class="container">
+		<form method="post" action="" name="contact-form">
+
+			<h4>Contact Us</h4>
+
+			<input type="text" name="Name" placeholder="Name" id="name">
+
+            <div id="gender">
+            <label>Male</label>
+            <input type="radio" name="Gender" value="Male">
+            <label>Female</label>
+            <input type="radio" name="Gender" value="Female">
+            </div>
+
+			<input type="text" name="Number" placeholder="Number" id="number">
+
+			<input type="email" name="Email" placeholder="Email">
+
+            <label id="choose">What is your concern?</label>
+            <select name="Option" id="select">
+              <option>Choose required options below</option>
+              <option value="General Health Check">General Health Check</option>
+              <option value="Lung Check">Lung Check</option>
+              <option value="Heart Check">Heart Check</option>
+              <option value="Physical Check">Physical Check</option>
+              <option value="Mental Check">Mental Check</option>
+              <option value="Other">Other</option>
+             </select>
+
+			<textarea name="Description" rows="7" placeholder="Description"></textarea>
+
+            <div id="datetime">
+            <label id="textdate">Reserve Date</label>
+            <input id="date" type="date" id="start" name="Date" value="2023-07-22" min="2023-01-01" max="2023-12-31" /> 
+            </div>
+
+            <input type="submit" value="Submit" id="submit">
+
+		</form>
+	</div>
+
+	<script src="Google Sheet.js"></script>
+</body>
+</html>
