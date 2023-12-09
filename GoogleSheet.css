@@ -47,6 +47,8 @@ textarea{
 
 #gender{
     display: flex;
+    justify-content: center;
+    align-content: center;
     margin-top: 15px;
     color: white;
 }
